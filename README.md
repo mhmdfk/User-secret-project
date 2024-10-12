@@ -26,15 +26,18 @@ This is a web application where users can register or log in using their email o
    cd User-secret-project
    
 2.Install the dependencies:
+   ```bash
    npm i
+   ```
 
 3.Set up the PostgreSQL database:
   Create a database called your_database_name.
   Create a users table with columns email, password, and secret
 
 4.Run the application:
+```bash
   npm nodemon index.js
-
+```
 5.Open your browser and navigate to http://localhost:3000.
 
 ## Routes
